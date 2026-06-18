@@ -9,8 +9,8 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main',
-                url: 'https://github.com/USERNAME/MyMavenGuavaApp.git'
+                git branch: 'master',
+                url: 'https://github.com/susmitamathapati/Immutable.git'
             }
         }
 
